@@ -1,0 +1,15 @@
+spec: "0.0"
+name: chip-pro-test
+uuid: 3380ba43-879f-44a1-a374-9110555018e9
+type: docker
+onboot:
+- name: chip-pro-test
+  uuid: ffe68a1b-0e91-4d32-a06c-db7ef2b817d1
+  image: ""
+  directory: "./"
+  net: ""
+  readonly: false
+  command: ['python3','-V']
+  binds: []
+  capabilities: []
+  devices: []
